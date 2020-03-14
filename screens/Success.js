@@ -8,7 +8,6 @@ export default function Success({ navigation }) {
             navigation.navigate('Reservation')
         }, 2500);
     }, []);
-
     return (
         <View>
             <Image style={{ width: '100%'}} source={require('../assets/images/success.png')} />
